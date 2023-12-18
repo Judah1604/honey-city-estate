@@ -2,5 +2,4 @@
     command= "npm run build"
     publish= "/opt/build/repo/.next"
 [[plugins]]
-    - inputs= {}
     package= "@netlify/plugin-nextjs"
