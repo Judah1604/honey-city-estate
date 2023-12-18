@@ -1,6 +1,6 @@
 'use client'
 
-import { Dancing_Script, Onest } from "next/font/google";
+import { Onest } from "next/font/google";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "../node_modules/bootstrap/dist/js/bootstrap";
 import "./Styles/base/common.css";

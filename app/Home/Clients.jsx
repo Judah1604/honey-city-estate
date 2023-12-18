@@ -7,7 +7,7 @@ function Clients() {
     return (
         <div className="container my-4">
             <h1 className="mb-4">Our Clients</h1>
-            <div className="clients mt-3 row overfloe-hidden">
+            <div className="clients mt-3 row overflow-hidden">
                 <motion.div
                     className="img col-md-3"
                     initial={{ y: 70, opacity: 0 }}
