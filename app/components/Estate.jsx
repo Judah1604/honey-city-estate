@@ -11,15 +11,23 @@ function Estate() {
                         <div className="carousel-item active">
                             <div className="content row">
                                 <div className="col-md-5">
-                                    <img
+                                    <Image
+                                        className="col-md-5"
                                         src="/images/estate (1).jpeg"
-                                        alt="House"
+                                        alt="Honey City Estate"
+                                        width={500}
+                                        height={500}
+                                        layout="responsive"
                                     />
                                 </div>
                                 <div className="col-md-5">
-                                    <img
+                                    <Image
+                                        className="col-md-5"
                                         src="/images/estate (2).jpeg"
-                                        alt="House"
+                                        alt="Honey City Estate"
+                                        width={500}
+                                        height={500}
+                                        layout="responsive"
                                     />
                                 </div>
                             </div>
@@ -27,15 +35,23 @@ function Estate() {
                         <div className="carousel-item">
                             <div className="content row">
                                 <div className="col-md-5">
-                                    <img
+                                    <Image
+                                        className="col-md-5"
                                         src="/images/estate (3).jpeg"
-                                        alt="House"
+                                        alt="Honey City Estate"
+                                        width={500}
+                                        height={500}
+                                        layout="responsive"
                                     />
                                 </div>
                                 <div className="col-md-5">
-                                    <img
+                                    <Image
+                                        className="col-md-5"
                                         src="/images/estate (4).jpeg"
-                                        alt="House"
+                                        alt="Honey City Estate"
+                                        width={500}
+                                        height={500}
+                                        layout="responsive"
                                     />
                                 </div>
                             </div>
@@ -43,15 +59,23 @@ function Estate() {
                         <div className="carousel-item">
                             <div className="content row">
                                 <div className="col-md-5">
-                                    <img
+                                    <Image
+                                        className="col-md-5"
                                         src="/images/estate (5).jpeg"
-                                        alt="House"
+                                        alt="Honey City Estate"
+                                        width={500}
+                                        height={500}
+                                        layout="responsive"
                                     />
                                 </div>
                                 <div className="col-md-5">
-                                    <img
+                                    <Image
+                                        className="col-md-5"
                                         src="/images/estate (6).jpeg"
-                                        alt="House"
+                                        alt="Honey City Estate"
+                                        width={500}
+                                        height={500}
+                                        layout="responsive"
                                     />
                                 </div>
                             </div>
@@ -59,15 +83,23 @@ function Estate() {
                         <div className="carousel-item">
                             <div className="content row">
                                 <div className="col-md-5">
-                                    <img
+                                    <Image
+                                        className="col-md-5"
                                         src="/images/estate (7).jpeg"
-                                        alt="House"
+                                        alt="Honey City Estate"
+                                        width={500}
+                                        height={500}
+                                        layout="responsive"
                                     />
                                 </div>
                                 <div className="col-md-5">
-                                    <img
+                                    <Image
+                                        className="col-md-5"
                                         src="/images/estate (8).jpeg"
-                                        alt="House"
+                                        alt="Honey City Estate"
+                                        width={500}
+                                        height={500}
+                                        layout="responsive"
                                     />
                                 </div>
                             </div>
@@ -75,15 +107,23 @@ function Estate() {
                         <div className="carousel-item">
                             <div className="content row">
                                 <div className="col-md-5">
-                                    <img
+                                    <Image
+                                        className="col-md-5"
                                         src="/images/estate (9).jpeg"
-                                        alt="House"
+                                        alt="Honey City Estate"
+                                        width={500}
+                                        height={500}
+                                        layout="responsive"
                                     />
                                 </div>
                                 <div className="col-md-5">
-                                    <img
+                                    <Image
+                                        className="col-md-5"
                                         src="/images/estate (10).jpeg"
-                                        alt="House"
+                                        alt="Honey City Estate"
+                                        width={500}
+                                        height={500}
+                                        layout="responsive"
                                     />
                                 </div>
                             </div>

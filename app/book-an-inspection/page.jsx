@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "../Styles/components/contact.css";
 
 function BookInspection() {
@@ -122,29 +123,37 @@ function BookInspection() {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <div className="content row justify-content-center">
-                            <img
+                            <Image
+                                className="col-md-5"
                                 src="/images/estate (1).jpeg"
-                                className="col-md-5"
                                 alt="Honey City Estate"
+                                width={500}
+                                height={500}
                             />
-                            <img
-                                src="/images/estate (2).jpeg"
+                            <Image
                                 className="col-md-5"
+                                src="/images/estate (2).jpeg"
                                 alt="Honey City Estate"
+                                width={500}
+                                height={500}
                             />
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="content row justify-content-center">
-                            <img
+                            <Image
+                                className="col-md-5"
                                 src="/images/estate (3).jpeg"
-                                className="col-md-5"
                                 alt="Honey City Estate"
+                                width={500}
+                                height={500}
                             />
-                            <img
-                                src="/images/estate (4).jpeg"
+                            <Image
                                 className="col-md-5"
+                                src="/images/estate (4).jpeg"
                                 alt="Honey City Estate"
+                                width={500}
+                                height={500}
                             />
                         </div>
                     </div>
@@ -164,29 +173,37 @@ function BookInspection() {
                     </div>
                     <div className="carousel-item">
                         <div className="content row justify-content-center">
-                            <img
+                            <Image
+                                className="col-md-5"
                                 src="/images/estate (7).jpeg"
-                                className="col-md-5"
                                 alt="Honey City Estate"
+                                width={500}
+                                height={500}
                             />
-                            <img
-                                src="/images/estate (8).jpeg"
+                            <Image
                                 className="col-md-5"
+                                src="/images/estate (8).jpeg"
                                 alt="Honey City Estate"
+                                width={500}
+                                height={500}
                             />
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="content row justify-content-center">
-                            <img
+                            <Image
+                                className="col-md-5"
                                 src="/images/estate (9).jpeg"
-                                className="col-md-5"
                                 alt="Honey City Estate"
+                                width={500}
+                                height={500}
                             />
-                            <img
-                                src="/images/estate (10).jpeg"
+                            <Image
                                 className="col-md-5"
+                                src="/images/estate (10).jpeg"
                                 alt="Honey City Estate"
+                                width={500}
+                                height={500}
                             />
                         </div>
                     </div>

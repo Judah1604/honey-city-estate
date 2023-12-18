@@ -1,14 +1,19 @@
+import Image from "next/image";
 import React from "react";
 
-function ServiceCard({image, title, text}) {
+function ServiceCard({ image, title, text }) {
     return (
         <div className="card col-md-4">
-            <img src={image} className="card-img-top" alt={title} />
+            <Image
+                src={image}
+                alt={title}
+                width={500}
+                height={500}
+                layout="responsive"
+            />
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
-                <p className="card-text">
-                    {text}
-                </p>
+                <p className="card-text">{text}</p>
             </div>
         </div>
     );
