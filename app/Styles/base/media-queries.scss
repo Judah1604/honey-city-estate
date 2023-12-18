@@ -1,0 +1,146 @@
+// Tablet Queries
+
+@media screen and (max-width: 1024px) {
+
+    h1 {
+        font-size: calc(2rem + 1.5vw) !important;
+    }
+
+    .hero-section {
+
+        .text {
+            padding: 150px !important;
+        }
+    }
+
+    .container {
+
+
+        .houses {
+            .house-card {
+                width: 100%;
+            }
+        }
+
+    }
+
+    .values {
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .poster {
+        flex-direction: column;
+        
+        &>* {
+            width: 95%;
+        }
+    }
+}
+
+// Mobile Queries
+
+@media screen and (max-width: 576px) {
+
+    .navbar {
+        .btn {
+            display: none;
+        }
+    }
+
+    .menu-icon {
+        display: flex !important;
+    }
+
+    .nav,
+    .btns {
+        display: none;
+    }
+
+    .hero-section {
+        padding: 0px;
+
+        .text {
+            padding: 50px !important;
+        }
+    }
+
+    .value-card, .clients .img {
+        width: 90%;
+    }
+
+    .estate {
+        .content {
+            gap: 10px;
+        }
+    }
+
+    .poster {
+        h1 {
+            width: 90% !important;
+        }
+
+        .images {
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+
+            img {
+                width: 95% !important;
+            }
+        }
+
+        img {
+            width: 95%;
+        }
+    }
+
+    .founders {
+        width: 90%;
+        margin: auto;
+
+        .text {
+            text-align: left;
+        }
+    }
+
+    .contact {
+        width: 90%;
+        margin: auto;
+
+        .contact-info {
+            border-right: 0 !important;
+            border-bottom: 2px solid #898989;
+            margin-bottom: 20px;
+        }
+    }
+
+    .preview {
+        width: 90%;
+        margin: auto;
+
+        .content {
+            padding: 15px;
+        }
+    }
+
+    footer.p-5 {
+        padding: 20px !important;
+        font-size: 0.9em;
+
+        &>* {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .links .socials {
+            gap: 30px;
+
+            i {
+                font-size: 1.5em;
+            }
+        }
+    }
+
+}

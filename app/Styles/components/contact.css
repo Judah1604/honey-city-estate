@@ -1,0 +1,122 @@
+.contact-container {
+  background-image: url("../../../public/images/contact-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px;
+  border-radius: 15px;
+  color: #ededed;
+}
+
+.contact .contact-info,
+.inspection .contact-info {
+  border-right: 2px solid #fff;
+}
+.contact form,
+.inspection form {
+  color: #ededed;
+}
+.contact form .form-group,
+.inspection form .form-group {
+  position: relative;
+}
+.contact form .form-group:focus-within label,
+.inspection form .form-group:focus-within label {
+  color: #FE7505;
+}
+.contact form .open,
+.inspection form .open {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact form .open > *,
+.inspection form .open > * {
+  width: 48%;
+}
+.contact form .open label,
+.inspection form .open label {
+  position: static;
+  opacity: 1;
+  font-size: 1em;
+}
+.contact form .open select,
+.inspection form .open select {
+  padding: 0.9em 1.3em;
+  background-color: inherit;
+  border: 2px solid #fff;
+  color: #ededed;
+}
+.contact form .open option,
+.inspection form .open option {
+  color: #181818;
+}
+.contact form .input-focus,
+.inspection form .input-focus {
+  box-shadow: none;
+  outline: 3px solid #FE7505;
+  border: none;
+}
+.contact form label,
+.inspection form label {
+  position: absolute;
+  top: 25px;
+  left: 22px;
+  transition: 0.3s ease;
+  color: #ededed;
+  padding: 0 5px;
+  font-size: 1.2em;
+}
+.contact form input,
+.contact form textarea,
+.inspection form input,
+.inspection form textarea {
+  padding: 0.9em 1.3em;
+  border: 2px solid #fff;
+  background-color: inherit;
+  border-radius: 7px;
+  width: 100%;
+  color: white !important;
+}
+.contact form input:focus,
+.contact form textarea:focus,
+.inspection form input:focus,
+.inspection form textarea:focus {
+  box-shadow: none;
+  outline: 3px solid #FE7505;
+  background-color: inherit;
+  border: none;
+}
+.contact form input::-moz-placeholder, .contact form textarea::-moz-placeholder, .inspection form input::-moz-placeholder, .inspection form textarea::-moz-placeholder {
+  color: #ededed;
+}
+.contact form input::placeholder,
+.contact form textarea::placeholder,
+.inspection form input::placeholder,
+.inspection form textarea::placeholder {
+  color: #ededed;
+}
+.contact form input,
+.inspection form input {
+  padding: 0.9em 3.5em;
+}
+.contact form textarea,
+.inspection form textarea {
+  height: 200px !important;
+}
+.contact form button,
+.inspection form button {
+  margin-left: auto;
+  margin-right: 10px;
+  display: block;
+  margin-top: 10px;
+}
+
+.preview .content {
+  gap: 30px;
+}
+.preview img {
+  border-radius: 8px;
+  border: 2px solid #FE7505;
+  padding: 0;
+}/*# sourceMappingURL=contact.css.map */

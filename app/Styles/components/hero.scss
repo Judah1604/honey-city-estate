@@ -1,0 +1,56 @@
+$heroImage: '../../../public/images/estate (4).jpeg';
+
+.hero-section {
+    position: relative;
+    padding-bottom: 40px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        background-image: url($heroImage);
+        inset: 0;
+        width: 96%;
+        margin: auto;
+        filter: blur(20px) brightness(0.8);
+        bottom: 35px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .text {
+        margin: auto;
+        z-index: 2;
+        color: #ededed;
+        padding: 250px;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            background-image: url($heroImage);
+            inset: 0;
+            z-index: -2;
+            filter: brightness(0.7);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 8px;
+            height: 150px;
+            background-color: #fe7505;
+            margin-top: 20px;
+        }
+    }
+
+    h1 {
+        font-size: 3.5em;
+        overflow: hidden;
+        margin-left: 30px;
+    }
+}

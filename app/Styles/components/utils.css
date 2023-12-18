@@ -1,0 +1,230 @@
+.houses {
+  overflow: hidden;
+}
+.houses .cards {
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+}
+.houses .house-card {
+  border-radius: 0px 0px 7px 7px;
+  padding: 0;
+  cursor: pointer;
+}
+.houses .house-card .img {
+  border-radius: 7px 7px 0px 0px;
+  overflow: hidden;
+}
+.houses .house-card .img img {
+  transition: 0.3s ease;
+  width: 100%;
+}
+.houses .house-card .img:hover img {
+  transform: scale(1.1);
+}
+.houses .house-card .text {
+  padding: 15px 30px;
+  text-align: left;
+}
+.houses .house-card .text p {
+  opacity: 0.8;
+}
+.houses .house-card .text .details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.houses .house-card .text .details > * {
+  display: flex;
+  flex-direction: column;
+}
+.houses .house-card .text .details > * i {
+  font-size: 1.4em;
+  margin-right: 10px;
+}
+.houses .house-card .text .details > * .num {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.houses .house-card .text .details > * p {
+  margin-top: 5px;
+  opacity: 0.8;
+}
+
+.values {
+  border-radius: 7px;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: -50px;
+}
+.values .value-card {
+  text-align: center;
+  padding: 40px 30px;
+  box-shadow: 0 10px 40px 1px #fe7505;
+  margin: 40px;
+  border-radius: 10px;
+  background-color: #fe7505;
+  color: #ededed;
+}
+.values .value-card i {
+  font-size: 2.5em;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.card {
+  border-radius: 7px;
+  border: 1px solid #cccccc;
+  padding-bottom: 10px;
+  background-color: inherit;
+  color: inherit;
+  padding: 0;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+}
+
+.carousel .content {
+  justify-content: center;
+}
+
+.features .btn {
+  padding: 0.8rem 1.4rem;
+}
+.features .content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.features .feature {
+  display: flex;
+  flex-direction: column;
+}
+.features .feature i {
+  color: #fe7505;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.about-us {
+  background-color: #111;
+  color: #ededed;
+}
+.about-us h2 {
+  text-transform: uppercase;
+}
+.about-us p {
+  font-size: 1.1em;
+}
+
+.services {
+  gap: 20px;
+  overflow: hidden;
+}
+.services .card {
+  width: 32%;
+}
+
+.estate {
+  background-color: #fe7505;
+  color: #f8f8f8;
+}
+.estate img {
+  width: 100%;
+  height: 350px;
+  border: 3px solid #ededed;
+  border-radius: 15px;
+}
+
+.poster {
+  background-color: gray;
+  justify-content: space-around;
+  align-items: center;
+}
+.poster h1 {
+  color: #fe7505;
+  padding: 15px;
+  background-color: #e9e9e9;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+.poster .images.row {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.poster .images.row .col-md-4 {
+  width: 32%;
+}
+.poster .images.row img {
+  height: 200px;
+  border: 3px solid #363636;
+  border-radius: 7px;
+  padding: 0;
+}
+.poster .img img {
+  border-radius: 7px;
+  border: 3px solid #e9e9e9;
+}
+.poster .btn {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.clients {
+  justify-content: center;
+  gap: 30px;
+}
+.clients img {
+  border-radius: 10px;
+}
+
+.who-we-are {
+  justify-content: center;
+}
+.who-we-are img {
+  border-radius: 7px;
+  margin-top: 20px;
+}
+.who-we-are .text {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fe7505;
+  box-shadow: 0 0 20px 5px #fe7505;
+  color: #ededed;
+  border-radius: 15px;
+}
+.who-we-are .text p {
+  margin-top: 10px;
+}
+
+.founders .founder {
+  justify-content: center;
+  gap: 30px;
+}
+.founders .founder .text {
+  margin: 20px;
+  padding: 30px;
+  background-color: #fe7505;
+  box-shadow: 0 0 20px 5px #fe7505;
+  color: #ededed;
+  border-radius: 15px;
+}
+.founders .founder h2 {
+  margin-bottom: 5px;
+}
+.founders .founder .position {
+  opacity: 0.9;
+}
+.founders .founder img {
+  border-radius: 7px;
+}
+.founders .reverse {
+  flex-direction: row-reverse;
+  text-align: right;
+}/*# sourceMappingURL=utils.css.map */

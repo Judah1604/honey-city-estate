@@ -1,0 +1,42 @@
+.houses {
+  justify-content: center;
+  gap: 30px;
+}
+.houses .house-card {
+  border-radius: 0px 0px 7px 7px;
+  padding: 0;
+  cursor: pointer;
+}
+.houses .house-card img {
+  border-radius: 7px 7px 0px 0px;
+  width: 100%;
+}
+.houses .house-card .text {
+  padding: 15px 30px;
+  text-align: left;
+}
+.houses .house-card .text p {
+  opacity: 0.8;
+}
+.houses .house-card .text .details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.houses .house-card .text .details > * {
+  display: flex;
+  flex-direction: column;
+}
+.houses .house-card .text .details > * i {
+  font-size: 1.4em;
+  margin-right: 10px;
+}
+.houses .house-card .text .details > * .num {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.houses .house-card .text .details > * p {
+  margin-top: 5px;
+  opacity: 0.8;
+}/*# sourceMappingURL=houses.css.map */
