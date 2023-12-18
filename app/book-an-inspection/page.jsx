@@ -159,15 +159,19 @@ function BookInspection() {
                     </div>
                     <div className="carousel-item">
                         <div className="content row justify-content-center">
-                            <img
+                            <Image
+                                className="col-md-5"
                                 src="/images/estate (5).jpeg"
-                                className="col-md-5"
                                 alt="Honey City Estate"
+                                width={500}
+                                height={500}
                             />
-                            <img
-                                src="/images/estate (6).jpeg"
+                            <Image
                                 className="col-md-5"
+                                src="/images/estate (6).jpeg"
                                 alt="Honey City Estate"
+                                width={500}
+                                height={500}
                             />
                         </div>
                     </div>
