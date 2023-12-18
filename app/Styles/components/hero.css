@@ -5,7 +5,7 @@
 .hero-section::after {
   content: "";
   position: absolute;
-  background-image: url("../../../public/images/estate (4).jpeg");
+  background-image: url("../../../public/images/hero-img.jpg");
   inset: 0;
   width: 96%;
   margin: auto;
@@ -25,7 +25,7 @@
 .hero-section .text::after {
   content: "";
   position: absolute;
-  background-image: url("../../../public/images/estate (4).jpeg");
+  background-image: url("../../../public/images/hero-img.jpg");
   inset: 0;
   z-index: -2;
   filter: brightness(0.7);
