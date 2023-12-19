@@ -1,7 +1,7 @@
-import Clients from "./Home/Clients";
-import HeroSection from "./Home/HeroSection";
-import Values from "./Home/Values";
-import Estate from "./components/Estate";
+import Clients from "../components/Clients";
+import HeroSection from "../components/HeroSection";
+import Values from "../components/Values";
+import Estate from "../components/Estate";
 
 export default function Page() {
     return (

@@ -1,5 +1,5 @@
 import "../Styles/components/utils.css";
-import ServiceCard from "../components/ServiceCard";
+import ServiceCard from "../../components/ServiceCard";
 
 function Services() {
     return (

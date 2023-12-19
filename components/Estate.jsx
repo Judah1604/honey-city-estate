@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "../Styles/components/utils.css";
+import "../app/Styles/components/utils.css";
 
 function Estate() {
     return (
