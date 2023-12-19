@@ -1,4 +1,3 @@
-import React from "react";
 import HeroSection from "./HeroSection";
 import Values from "./Values";
 import Clients from "./Clients";
