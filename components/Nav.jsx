@@ -1,5 +1,6 @@
 "use client";
 import { usePathname } from "next/navigation";
+import "../node_modules/bootstrap/js/src/dropdown";
 
 function Nav() {
     const pathname = usePathname();
