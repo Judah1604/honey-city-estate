@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import "../Styles/components/utils.css";
+import "../app/Styles/components/utils.css";
 
 function Values() {
     return (

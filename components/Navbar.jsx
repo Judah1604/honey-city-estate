@@ -1,5 +1,5 @@
 "use client";
-import "../Styles/components/static.css";
+import "../app/Styles/components/static.css";
 import { useState } from "react";
 import Nav from "./Nav";
 

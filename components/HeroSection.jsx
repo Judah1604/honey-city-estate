@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import "../Styles/components/hero.css";
+import "../app/Styles/components/hero.css";
 
 function HeroSection() {
     return (
