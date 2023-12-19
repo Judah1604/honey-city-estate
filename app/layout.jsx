@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import Script from "next/script";
 
 const onest = Onest({
-    weight: ["500", "600", "700"],
+    weight: ["600", "700"],
     subsets: ["latin"],
     variable: "--font-onest",
 });
